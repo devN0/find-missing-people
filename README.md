@@ -2,11 +2,14 @@
 
 ## Introduction
 
-An online portal for people to maintain records on plants in their yard.  They can upload photos and add notes to a plant at any time.  Plant data, including sustainability and edibility, are sourced from PlantPlaces.com master data.
+An online portal for family members and friends to register a new missing child.
+And on the other hand people can add information about children they find lost.
+They can upload photo proofs to back their claims about the whereabouts of a missing child.
+Missing children's data, including last seen and last appearance, are sourced from C.com master data.
 
 Users can generate a report to show several attributes of their yard: sustainability, edibility, native, etc.  This report can be used to help sell the positive attributes of the house.
 
-Users can interact with MyPlantDiary using either a set of RESTful service endpoints, or a simple UI, or both.
+Users can interact with FindingMissingPeople using either a set of RESTful service endpoints, or a simple UI, or both.
 
 ## Storyboard
 
