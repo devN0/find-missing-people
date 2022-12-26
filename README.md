@@ -2,32 +2,27 @@
 
 ## Introduction
 
-An online portal for family members and friends to register a new missing child.
+An online portal for family members and friends to register a new entry for a missing child.
 And on the other hand people can add information about children they find lost.
-They can upload photo proofs to back their claims about the whereabouts of a missing child.
-Missing children's data, including last seen and last appearance, are sourced from C.com master data.
+They can upload photo proofs to back their claims about the whereabouts of an abandoned child.
+Missing children's data, including last seen and last appearance, are sourced from missingchildrendata.com master data.
 
-Users can generate a report to show several attributes of their yard: sustainability, edibility, native, etc.  This report can be used to help sell the positive attributes of the house.
+Users can generate a report of current info about of a child: last location, last images, contact person info etc.
 
 Users can interact with FindingMissingPeople using either a set of RESTful service endpoints, or a simple UI, or both.
 
-## Storyboard
-
-[Storyboard in Invision](https://projects.invisionapp.com/prototype/Plant-Diary-ck0bict0n005bqh01aaeu8tuu)
-
 ## Requirements
 
-1. As a homeowner, I want to be able to catalog my specimens, so that I will remember what I planted.
+1. As a guardian, I want to be able to register a new entry, so that I can track latest updates.
 
 ### Example 
 
-**Given**:  A feed of plant data are available
+**Given**:  A feed of missing children data are available
 
-**When**: The user/service selects plant Eastern Redbud
+**When**: The user/service selects child John Doe
+**When**: The user/service adds age 9 to John Doe.
 
-**When**: The user/service adds latitude 39.74 to an Eastern Redbud specimen
-
-**Then**: The user’s/service’s Eastern Redbud will be saved with 39.74 latitude.
+**Then**: The user’s/service’s entry for a missing child with name John Doe will be saved with age 9.
 
 ### Example 
 
@@ -53,15 +48,15 @@ Users can interact with FindingMissingPeople using either a set of RESTful servi
 
 **Then**: MyPlantDiary will create a new specimen for this record, and will return this new specimen object.
 
-2.	As a homeowner, I want to be able to upload photos of my plant at any time.
+2.	As an guardian, I want to be able to upload photos of my child at any time.
 
 ### Example 
 
-**Given**: The user is logged in and has selected a previously-saved Eastern Redbud specimen
+**Given**: The user is logged in and has selected a previously-saved entry.
 
-**When**: The user uploads a valid 640*480 photo of an Eastern Redbud Flower
+**When**: The user uploads a valid 640*480 photo of the child John Doe.
 
-**Then**: The 640*480  photo of an Eastern Redbud flower will be saved to the specimen profile, and can be viewed later.
+**Then**: The 640*480  photo of the child John Doe will be saved to the missing child's profile, and can be viewed later.
 
 ### Example 
 
@@ -98,11 +93,6 @@ Users can interact with FindingMissingPeople using either a set of RESTful servi
 
 **Then**: The user will see an error, indicating no data available for report.
 
-## Class Diagram
-
-![My Plant Diary Class Diagram](https://github.com/discospiff/SpringBootMicroservicesWithIntelliJIDEA/blob/master/PlantDiaryClassDiagram.drawio.png)
-
-### Class Diagram Description 
 
 ## JSON Schema
 
@@ -122,10 +112,8 @@ This is what we plan to export to another app.
 > }
 ## Team Memebers and Roles
 
-UI Specialist: Brandan Jones
-Business Logic/Persitence: Brandan Jones
-DevOps/Product Owner/Scrum Master/GitHub Admin: Brandan Jones
+UI Specialist: Devendra Diwakar
+Business Logic/Persitence: Devendra Diwakar
+DevOps/Product Owner/Scrum Master/GitHub Admin: Devendra Diwakar
 
 ## Milestones
-
-[Milestone 1](https://github.com/discospiff/SpringBootMicroservicesWithIntelliJIDEA/milestone/1)
